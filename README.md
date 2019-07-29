@@ -45,3 +45,8 @@ Below are two snippets of code you might find useful for this afternoon. Of cour
 ## Stretch Goals
 
 Print to the console the top 50 appearing words alphabetically. Do include their counts. 
+
+## Compile
+javac wordcount/*.java
+jar cvfe WordcountApp.jar wordcount.Main wordcount/*.class
+java -jar WordcountApp.jar
